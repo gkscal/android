@@ -20,7 +20,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build" name="gkscal/android_build" groups="pdk,tradefed">
+  <project path="build" name="user/android_build" groups="pdk,tradefed">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
@@ -504,7 +504,11 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
-
+<project path="kernel/your_company/your_device" name="user2/kernel_source" remote="github" revision="jb4.3" />
+<project path="device/your_company/your_device" name="user2/device_source" remote="github" revision="jb4.3" />
+<project path="device/your_company/your_device-common" name="user2/device-common_source" remote="github" revision="jb4.3" />
+<project path="vendor/your_company" name="user2/vendor" remote="github" revision="jb4.3" />
+  
   <include name="snippets/cm.xml" />
 
 </manifest>
