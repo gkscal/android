@@ -507,7 +507,7 @@
 <project path="kernel/your_company/your_device" name="user2/kernel_source" remote="github" revision="7,1,1_r4" />
 <project path="device/your_company/your_device" name="user2/device_source" remote="github" revision="7.1.1_r4" />
 <project path="device/your_company/your_device-common" name="user2/device-common_source" remote="github" revision="7.1.1_r4" />
-<project path="vendor/your_company" name="user2/vendor" remote="github" revision="jb4.3" />
+<project path="vendor/your_company" name="user2/vendor" remote="github" revision="7.1.1_r4" />
   
   <include name="snippets/cm.xml" />
 
